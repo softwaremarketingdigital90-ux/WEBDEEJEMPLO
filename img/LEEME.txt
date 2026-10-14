@@ -1,0 +1,21 @@
+FOTOS REALES (opcional)
+=======================
+Guarda aquí las fotos del cliente con estos nombres EXACTOS (formato .jpg).
+Si el archivo existe, la foto reemplaza sola a la ilustración. Si no existe, se ve la ilustración.
+No hay que tocar código.
+
+hero.jpg      Foto principal del inicio (cuadrada, mínimo 900x900)
+local.jpg     Foto del local, página "Nosotros" (horizontal, 1200x900)
+equipo-1.jpg  Marta (cuadrada)      equipo-2.jpg  Jorge      equipo-3.jpg  Lucía
+g1.jpg ... g6.jpg   Galería del inicio (g1 grande, g4 ancha). Si no hay ninguna, la sección se oculta.
+
+Platos (4:3 o cuadrada, mínimo 800x600):
+  c1 ceviche de camarón   c2 ceviche mixto   c3 ceviche de concha   c4 ceviche de pescado
+  f1 encebollado          f2 arroz con camarón   f3 corvina frita   f4 pulpo al ajillo
+  e1 chifles   e2 empanadas   e3 bolitas de verde
+  b1 limonada  b2 maracuyá    b3 tres leches
+  k1 combo para 2   k2 almuerzo   k3 combo familiar
+Ejemplo: img/c1.jpg
+
+Tip: comprime las fotos (tinypng.com) a menos de 200 KB cada una.
+Usa solo fotos propias del cliente o con licencia comercial (Unsplash, Pexels).

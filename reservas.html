@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1F4FD8">
+<title>Reservas | Cevichería Marea</title>
+<meta name="description" content="Reserva tu mesa en Cevichería Marea. Te confirmamos por WhatsApp.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="demo-bar">Página de ejemplo creada por <strong>Sander Cuasapas</strong>. <a href="#" data-wa-contacto>¿Quieres una igual para tu restaurante? Escríbeme</a></div>
+<header class="site-header">
+  <a href="index.html" class="brand" aria-label="Cevichería Marea, inicio">
+    <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F4FD8"/><circle cx="44" cy="20" r="6" fill="#FFB627"/><path d="M8 36c6-6 10-6 16 0s10 6 16 0 10-6 16 0" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/><path d="M8 46c6-6 10-6 16 0s10 6 16 0 10-6 16 0" fill="none" stroke="#9FB8FF" stroke-width="4" stroke-linecap="round"/></svg>
+    <span class="brand-name">Marea<small>Cevichería</small></span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menú</button>
+  <nav id="nav" class="nav">
+    <a href="index.html">Inicio</a>
+    <a href="carta.html">Carta</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="ubicacion.html">Ubicación</a>
+    <a href="reservas.html" aria-current="page">Reservas</a>
+    <a href="carta.html#carta" class="btn btn-small">Pedir ahora</a>
+  </nav>
+</header>
+
+<main>
+<section class="page-hero"><div class="container">
+  <h1>Reserva tu mesa</h1>
+  <p>Cuéntanos cuándo vienes y te confirmamos por WhatsApp en minutos.</p>
+</div></section>
+
+<section class="section"><div class="container split" style="align-items:start">
+  <form id="reserva-form" class="form-card" novalidate>
+    <label>Nombre<input type="text" name="nombre" autocomplete="name"></label>
+    <div class="row">
+      <label>Fecha<input type="date" name="fecha"></label>
+      <label>Hora<select name="hora"><option value="">Elige</option><option>12:00</option><option>13:00</option><option>14:00</option><option>18:00</option><option>19:00</option><option>20:00</option></select></label>
+    </div>
+    <label>Personas<input type="number" name="personas" min="1" max="30" value="2"></label>
+    <label>Notas (opcional)<textarea name="notas" placeholder="Cumpleaños, terraza, silla para bebé..."></textarea></label>
+    <p class="form-error" id="form-error" role="alert" hidden></p>
+    <button class="btn btn-wa" type="submit">Enviar reserva por WhatsApp</button>
+  </form>
+  <div class="faq">
+    <h2 style="font-size:2.2rem">Preguntas frecuentes</h2>
+    <details><summary>¿Cuánto tardan en confirmar?</summary><p>Casi siempre en menos de 10 minutos dentro del horario de atención.</p></details>
+    <details><summary>¿Aceptan grupos grandes?</summary><p>Sí, hasta 30 personas. Para grupos de más de 10 escríbenos con un día de anticipación.</p></details>
+    <details><summary>¿Tienen terraza?</summary><p>Sí, con vista al río. Indícalo en las notas y la apartamos si hay lugar.</p></details>
+    <details><summary>¿Puedo cancelar o cambiar la hora?</summary><p>Claro. Avísanos por el mismo chat de WhatsApp.</p></details>
+    <details><summary>¿Hacen celebraciones?</summary><p>Sí. Cumpleaños, reuniones de oficina y aniversarios. Cuéntanos qué necesitas.</p></details>
+  </div>
+</div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="index.html" class="brand"><svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#1F4FD8"/><circle cx="44" cy="20" r="6" fill="#FFB627"/><path d="M8 36c6-6 10-6 16 0s10 6 16 0 10-6 16 0" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/><path d="M8 46c6-6 10-6 16 0s10 6 16 0 10-6 16 0" fill="none" stroke="#9FB8FF" stroke-width="4" stroke-linecap="round"/></svg><span class="brand-name">Marea<small>Cevichería</small></span></a>
+        <p style="margin-top:1rem">Mariscos frescos, cocina ecuatoriana y limón recién exprimido desde 2012.</p>
+        <div class="socials" data-redes></div>
+      </div>
+      <div><h3>Explora</h3><ul><li><a href="carta.html">Carta y pedidos</a></li><li><a href="nosotros.html">Nuestra historia</a></li><li><a href="reservas.html">Reservas</a></li><li><a href="ubicacion.html">Cómo llegar</a></li></ul></div>
+      <div><h3>Contacto</h3><ul><li>Malecón Simón Bolívar y Loja</li><li>Guayaquil, Ecuador</li><li><a href="tel:+593963615550">096 361 5550</a></li><li><a href="mailto:hola@cevicheriamarea.com">hola@cevicheriamarea.com</a></li></ul></div>
+      <div><h3>Horarios</h3><ul><li>Mar a jue: 11:00 a 20:00</li><li>Vie y sáb: 11:00 a 22:00</li><li>Domingo: 11:00 a 18:00</li><li>Lunes: cerrado</li></ul></div>
+    </div>
+    <div class="foot-bottom"><p>&copy; <span data-year>2026</span> Cevichería Marea. Sitio de demostración.</p><p>Diseño y desarrollo: Sander Cuasapas</p></div>
+  </div>
+</footer>
+<a class="wa-float" data-wa="Hola, quiero hacer una consulta." aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.8 2 6.8L3.2 29l6.6-1.7c1.9 1 4 1.6 6.2 1.6 7.2 0 13-5.8 13-12.9S23.200 3 16 3z" fill="#fff"/><path d="M12 9.500c-.4-.8-.8-.8-1.200-.8-.3 0-.7 0-1.100.4-.4.400-1.400 1.400-1.400 3.400s1.500 3.900 1.700 4.200c.2.300 2.900 4.600 7.200 6.300 3.500 1.400 4.300 1.100 5 1 .8-.1 2.500-1 2.800-2 .4-1 .4-1.800.2-2-.1-.2-.4-.3-.8-.5l-2.600-1.200c-.4-.2-.7-.3-1 .2-.3.400-1.100 1.400-1.300 1.700-.3.300-.5.300-.9.100-.4-.2-1.700-.6-3.200-2-1.200-1.100-2-2.400-2.200-2.800-.2-.4 0-.6.200-.8l.6-.7c.2-.2.3-.4.400-.7.100-.3.100-.5 0-.7z" fill="#25D366"/></svg></a>
+<script src="script.js"></script>
+</body>
+</html>
